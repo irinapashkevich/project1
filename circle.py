@@ -41,7 +41,7 @@ while T>0:
                 Vxx=C[i].Vx
                 Vyy=C[i].Vy
                 C[i].change_v(C[j].Vx,C[j].Vy)
-                C[j].change_v(Vxx,Vxx)
+                C[j].change_v(Vxx,Vyy)
                 k += 1
     for i in range(N):
         C[i].move(t)
